@@ -188,13 +188,13 @@ function showSlides() {
 }</script>
 
     <h1>Weather Forecast</h1>
-    <p>Weather is something we all care about. Not only do we are hope for warm, sunny weather so that we can swim, enjoy nature, or operate important farm activities but sometimes we wish for the rain to simply water the plants or dance with an umbrella on the wet street.</p>
-    <p>However, unlike other industries, the weather is the most important element that affects farm production. It can influence crop growth, total yield, pest occurrence, water and fertilizer need, and all farm activities carried out during the growing season. In other words, farming under the open sky is greatly reliant upon the weather and is subject to its moody conditions, especially nowadays, when climate change leads to unpredictable weather which is beyond human control.</p>
-    <p>A farmer can’t fight the weather. However, he can adopt the given situation and take additional farm management practices to minimize crop losses. Therefore, accurate information regarding the weather is important so that farm activities can be planned without adverse events.</p>    
-    <p>Being aware of real-time weather conditions like air and dew temperature, precipitation, and humidity is the best way to protect crops and secure a high and healthy yield. Extreme weather such as drought, flood, hail, or frost can cause instant plant stress, thus leading to failed production and increased cost.</p>
-    <p>The only way to manage and ensure profitable crop production is accurate weather forecasts. Available on any device (radio, TV, mobile, or computer), it gives great value to farmers who’s success largely depends on the weather.</p>
-    <p>Crop growth is closely related to the weather. Some crops require certain high or low temperatures to start their germination and continue further development. On the other hand, temperatures in combination with humidity are often used to predict various insect pest and disease occurrences. Based on this information, farmers can plan times for sowing, protection, harvesting, and other field activities in order to avoid negative weather effects and yield losses. </p>
-    <p>Weather monitoring offers a set of measurement options to provide useful information about soil and crop conditions, some of which are:</p>  
+    <p>Weather is something we all care about. Not only do we are hope for warm, sunny weather so that we can swim, enjoy nature, or operate important farm activities but sometimes we wish for the rain to simply water the plants or dance with an umbrella on the wet street.
+      However, unlike other industries, the weather is the most important element that affects farm production. It can influence crop growth, total yield, pest occurrence, water and fertilizer need, and all farm activities carried out during the growing season. In other words, farming under the open sky is greatly reliant upon the weather and is subject to its moody conditions, especially nowadays, when climate change leads to unpredictable weather which is beyond human control.
+      A farmer can’t fight the weather. However, he can adopt the given situation and take additional farm management practices to minimize crop losses. Therefore, accurate information regarding the weather is important so that farm activities can be planned without adverse events. 
+      Being aware of real-time weather conditions like air and dew temperature, precipitation, and humidity is the best way to protect crops and secure a high and healthy yield. Extreme weather such as drought, flood, hail, or frost can cause instant plant stress, thus leading to failed production and increased cost.
+      The only way to manage and ensure profitable crop production is accurate weather forecasts. Available on any device (radio, TV, mobile, or computer), it gives great value to farmers who’s success largely depends on the weather.
+      Crop growth is closely related to the weather. Some crops require certain high or low temperatures to start their germination and continue further development. On the other hand, temperatures in combination with humidity are often used to predict various insect pest and disease occurrences. Based on this information, farmers can plan times for sowing, protection, harvesting, and other field activities in order to avoid negative weather effects and yield losses. 
+      Weather monitoring offers a set of measurement options to provide useful information about soil and crop conditions, some of which are:</p>  
       <ul>
         <li>Air and soil temperature</li>      
         <li>Relative humidity</li>
@@ -218,7 +218,24 @@ function showSlides() {
     <script src="assets/js/transition.js"></script>
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/custom.js"></script>
-</body>
+
+
+<!-- Chatbot-->
+
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "6f5bd518-c680-4657-be74-4d0b9c4600a2", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "12be5f3d-9d89-4835-a614-2fa4a7d6fc78", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+  </body>
 
 
   </body>
