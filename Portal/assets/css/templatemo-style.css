@@ -295,13 +295,6 @@ padding: 10px;
 	background-image: url(../images/sellcrop.png);
 }
 
-.services .tenth-item .icon {
-	background-image: url(../images/login.jpg);
-}
-.services .tenth-item:hover .icon {
-	background-image: url(../images/login.jpg);
-}
-
 .services .service-item:hover {
 	background-color: #1feef5;
 }
